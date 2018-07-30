@@ -1,5 +1,6 @@
 element.style {
 }
+
 logo img {
     width: 70px;
     height: 60px;
@@ -38,6 +39,31 @@ h2 {
     font-weight: bold;
     font-style: normal;
 }
+h3 {
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+news-bites h3 {
+    margin-bottom: 41px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.news-bites .bite {
+    display: block;
+    padding: 11px 20px;
+    border-bottom: 1px solid black;
+    background-color: WhiteSmoke;
+    font-family: Verdana;
+    font-size: 12px;
+    color: DimGray;
+}
+
 body {
     display: block;
     margin: 0;
@@ -54,8 +80,7 @@ body {
   width: 240px;
 }
 div {
-    border: 1px solid black;
-
+    display: block;
 }
 header nav {
     padding-right: 40px;
