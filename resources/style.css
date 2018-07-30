@@ -30,7 +30,14 @@ header {
     font-size: 14px;
     font-weight: bold;
 }
-
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+}
 body {
     display: block;
     margin: 0;
@@ -52,6 +59,29 @@ div {
 }
 header nav {
     padding-right: 40px;
+}.narrative {
+    margin-top: 16px;
+}
+user agent stylesheet
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.stories {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+.story {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.stories .text-content {
+    height: 250px;
 }
 user agent stylesheet
 article, aside, footer, header, hgroup, main, nav, section {
@@ -97,4 +127,12 @@ nav span {
 }
 .pop-culture.image-content {
     background-image: url('./images/img-story-3.png');
+}
+.column.large {
+    width: 630px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 32px;
 }
